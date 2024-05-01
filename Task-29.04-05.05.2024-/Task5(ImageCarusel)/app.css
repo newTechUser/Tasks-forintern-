@@ -1,0 +1,36 @@
+body{
+    padding-top: 200px;
+}
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
