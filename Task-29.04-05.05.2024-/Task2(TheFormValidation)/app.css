@@ -1,0 +1,18 @@
+#Form{
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btnbtn{
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
