@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.folder {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.folder:hover {
+    background-color: #f0f0f0;
+}
+.arrow{
+    cursor: pointer;
+}
+.child{
+    display: none;
+}

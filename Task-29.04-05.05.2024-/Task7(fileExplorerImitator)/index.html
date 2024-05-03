@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Explorer</title>
+    <link rel="stylesheet" href="app.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Explorer</h1>
+        <p id="parent"></p>
+        <div id="fileExplorer">
+            <ul id="root">
+            </ul>
+            <ul id="child">
+            </ul>
+        </div>
+        <input type="text" id="folderName" placeholder="Enter folder name">
+        <button onclick="createFolder()">Create Folder</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
