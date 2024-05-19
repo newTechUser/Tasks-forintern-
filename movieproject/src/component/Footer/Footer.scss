@@ -1,0 +1,73 @@
+.Footer{
+    background-color: rgb(14, 13, 13);
+    .upFooter{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 80px 0px;
+        .upFooterbox{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 12px;
+            .boxhead{
+                font-weight: bold;
+                font-size: 16px;
+                padding-bottom: 5px;
+                cursor: pointer;
+            }
+            .boxabout{
+                font-size: 14px;
+                color: gray;
+                cursor: pointer;
+            }
+            .boxiconside{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                justify-content: center;
+                .boxaddicon{
+                    cursor: pointer;
+                    background-color: #181A1B;
+                    color: white;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+            }
+        }
+    }
+    .stick{
+        width: 93%;           
+        height: 1px;         
+        background-color: gray; 
+        border: none;         
+        margin: 20px auto;
+    }
+    .footcontainer{
+        padding-left: 60px;
+        padding-right: 60px;
+        .Footer{
+            padding-top: 15px  20pz;
+            padding-bottom: 25px;
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            .footstart{
+                color: gray;
+            }
+            .footend{
+                display: flex;
+                align-content: center;
+                gap: 15px;
+                .footendtext{
+                    color: gray;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

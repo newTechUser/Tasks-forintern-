@@ -1,0 +1,32 @@
+.FreeTrial{
+    background-image: url('../../image/fon.png');
+    background-size: cover;
+    background-position:  center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    .freetrialcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 600px;
+        .freetrialtextside{
+            .maintext{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .abouttext{
+                font-size: 10px;
+            }
+        }
+        .freetrialbtnside{
+            .freetrialbtn{
+                background-color: red;
+                color: white;
+                width: 120px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}

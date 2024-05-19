@@ -1,0 +1,19 @@
+.App .container {
+  padding: 10px 50px 10px 50px;
+}
+.App .container .Maincontent {
+  padding-top: 40px;
+}
+.App .container .Movie {
+  padding-top: 100px;
+}
+.App .container .appshows {
+  padding-top: 150px;
+}
+.App .container .appfreetrial {
+  padding-top: 150px;
+}
+.App .appFooter {
+  padding-top: 100px;
+  margin: 0;
+}/*# sourceMappingURL=App.css.map */

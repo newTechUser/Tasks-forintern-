@@ -1,0 +1,21 @@
+.App{
+    .container{
+        padding: 10px 50px 10px 50px;
+        .Maincontent{
+            padding-top: 40px;
+        }
+        .Movie{
+            padding-top: 100px;
+        }
+        .appshows{
+            padding-top: 150px;
+        }
+        .appfreetrial{
+            padding-top: 150px;
+        }
+    }
+    .appFooter{
+        padding-top: 100px ;
+        margin: 0;
+    }
+}

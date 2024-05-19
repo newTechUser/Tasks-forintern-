@@ -1,0 +1,88 @@
+
+  
+
+@media (min-width: 300px) and (max-width: 800px){
+
+}
+@media (min-width: 800px){
+  .Navbar{
+    .nav {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+    
+      .navstart{
+        display: flex;
+        align-items: center;
+          cursor: pointer;
+          padding: 0;
+          margin: 0;
+          .navstarttext{
+              font-size: 23px;
+          }
+      }
+  
+      .navmain {
+          border: 1px solid gray;
+          padding: 10px;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          gap: 40px !important;
+          .navmaintext {
+          font-size: 20px;
+          cursor: pointer;
+          color: gray;
+        }
+      }
+    
+      .navend {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .searchicon{
+          cursor: pointer;
+          width: 30px;
+          height: 40px;
+      }
+      .ringicon{
+          cursor: pointer;
+          width: 30px;
+          height: 40px;
+      }
+      /* Styling for the search container */
+  
+    }
+    .search-container {
+      float: right;
+      position: relative;
+      width: 200px;
+      .search-input {
+        width: calc(100% - 30px); /* Adjusted width to accommodate icon */
+        padding: 10px 40px 10px 10px; /* Increased right padding for icon */
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      /* Styling for the search icon */
+      .span{
+        .search-icon {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+          // pointer-events: none; /* Prevents the icon from interfering with input */
+          color: #999; /* Adjust the color of the icon */
+        }
+      }
+      
+    }
+  }
+}
